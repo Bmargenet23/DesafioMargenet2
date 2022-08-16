@@ -1,0 +1,134 @@
+
+body{
+    background-color: #575757;
+    }
+
+
+nav{
+    padding: 0px;
+    border:0px;
+    margin: 20px;
+    vertical-align: middle;
+    text-align: center;
+       }
+.menuspan{
+    width: 70px;
+    height: 70px;  
+    margin:10px;
+    padding:10px 0px;
+    background-color:#575757;
+    border-radius: 10px;
+    position:relative;
+
+    }
+
+span:hover{
+    background-color: grey;
+}
+
+a{
+    text-decoration: none;
+    color:aliceblue;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+article{
+    display:inline-block;
+}
+.principal{
+    display: flex;
+    height: 35vh;
+    background-image:url("./img/principal.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.secundaria{
+    display: flex;
+    height: 35vh;
+    background-image:url("./img/principal.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    color: aliceblue;
+    -webkit-text-stroke: 1px grey;
+    text-align: justify;
+}
+
+.fotosServicios{
+    margin: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+.fondo{
+    color: rgb(256, 256, 256);
+    background-image:url("./img/fondo.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.marginFotos{
+        padding-top: 20px;
+}
+li{
+    display: inline;
+    text-decoration:none;
+}
+
+.sectionFotos{
+    display: inline;
+}
+.section{
+    height: 600px;
+}
+
+.formulario{
+    margin: 0px;
+    padding: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+h2{
+    text-align: center;
+    }
+.justificar{    
+    text-align: justify;  
+}
+
+
+.anchoLargo{
+    width: 90%;
+    height: 100vh;
+    margin: 50px;
+    }
+
+
+.alineacionVertical{
+    vertical-align: middle;
+}
+
+
+button{
+    background-color: #575757;
+    font-size: 16px;
+    }
+
+.margin{
+    margin: 10px 20px;
+    float: left;
+}
+
+
+.colorLetra{
+    color: black;
+}
+
+.marginFooter{
+    margin: 0px;
+}
+
+
+.mivh-50 {
+    height: 50vh !important;
+  }
+
